@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ecf43d04986980c44b6e34cd047d9cd3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252728
+  packageName: Go Systems Third Person Controller Template
+  packageVersion: 1.5.1
+  assetPath: Assets/Go Systems/GoCharacterController/script/GoInputSystem.cs
+  uploadId: 740830

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 040ad409cced0f944803cda73cc514ed
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252728
+  packageName: Go Systems Third Person Controller Template
+  packageVersion: 1.5.1
+  assetPath: Assets/Go Systems/Add-On/Zipline/scripts/zipLineApi.cs
+  uploadId: 740830

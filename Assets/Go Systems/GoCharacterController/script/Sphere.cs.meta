@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bcd74005571e5a1428d5428616e5533e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252728
+  packageName: Go Systems Third Person Controller Template
+  packageVersion: 1.5.1
+  assetPath: Assets/Go Systems/GoCharacterController/script/Sphere.cs
+  uploadId: 740830

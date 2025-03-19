@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0fa2c19aa4f20bb4ab7317f042861ff7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252728
+  packageName: Go Systems Third Person Controller Template
+  packageVersion: 1.5.1
+  assetPath: Assets/Go Systems/GoCharacterController/script/GCustomMonoBehaviour.cs
+  uploadId: 740830

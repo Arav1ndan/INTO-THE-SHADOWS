@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f14b9fa13c4cf194a860c33c318b4ec2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252728
+  packageName: Go Systems Third Person Controller Template
+  packageVersion: 1.5.1
+  assetPath: Assets/Go Systems/GoCharacterController/models/Models/um_130886.asset
+  uploadId: 740830

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0a875e1167ab00348a78c9ac68105614
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252728
+  packageName: Go Systems Third Person Controller Template
+  packageVersion: 1.5.1
+  assetPath: Assets/Go Systems/GoCharacterController/prefab/BallSwing.prefab
+  uploadId: 740830

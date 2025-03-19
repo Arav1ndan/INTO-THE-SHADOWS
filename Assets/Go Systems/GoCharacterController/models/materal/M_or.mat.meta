@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c07553a3894c09b46a5eb7751200d61a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252728
+  packageName: Go Systems Third Person Controller Template
+  packageVersion: 1.5.1
+  assetPath: Assets/Go Systems/GoCharacterController/models/materal/M_or.mat
+  uploadId: 740830

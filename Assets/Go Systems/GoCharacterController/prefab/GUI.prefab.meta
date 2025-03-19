@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8e597d0ce834467458e3a70a7eacb469
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252728
+  packageName: Go Systems Third Person Controller Template
+  packageVersion: 1.5.1
+  assetPath: Assets/Go Systems/GoCharacterController/prefab/GUI.prefab
+  uploadId: 740830
