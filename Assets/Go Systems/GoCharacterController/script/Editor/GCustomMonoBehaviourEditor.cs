@@ -38,7 +38,7 @@ namespace GoSystem
         }
         public override void OnInspectorGUI()
         {
-            CheckEditorProperties();
+            //CheckEditorProperties();
           
             serializedObject.Update();  
             GUILayout.BeginVertical(skin.window);
@@ -100,24 +100,24 @@ namespace GoSystem
        
         }
 
-        protected virtual void CheckEditorProperties()
-        {
-            if(skin==null)
-            {
-                skin = Resources.Load("GUISkin") as GUISkin;
-                fontStyle = skin.label;
-            }
-            if (fontStyle == null)
-            {
-                fontStyle = new GUIStyle(EditorStyles.whiteLargeLabel);
-                fontStyle.imagePosition = ImagePosition.ImageLeft;
-                fontStyle.alignment = TextAnchor.UpperLeft;
-                fontStyle.fontSize = 23;
-                fontStyle.fontStyle = FontStyle.Bold;
-                fontStyle.wordWrap = true;
-                fontStyle.clipping =  TextClipping.Clip;
+        //protected virtual void CheckEditorProperties()
+        //{
+        //    if(skin==null)
+        //    {
+        //        skin = Resources.Load("GUISkin") as GUISkin;
+        //        fontStyle = skin.label;
+        //    }
+        //    if (fontStyle == null)
+        //    {
+        //        fontStyle = new GUIStyle(EditorStyles.whiteLargeLabel);
+        //        fontStyle.imagePosition = ImagePosition.ImageLeft;
+        //        fontStyle.alignment = TextAnchor.UpperLeft;
+        //        fontStyle.fontSize = 23;
+        //        fontStyle.fontStyle = FontStyle.Bold;
+        //        fontStyle.wordWrap = true;
+        //        fontStyle.clipping =  TextClipping.Clip;
               
-            }
-        }
+        //    }
+        //}
     }
 }
