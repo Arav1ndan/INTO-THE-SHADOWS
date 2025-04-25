@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
-using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class UiManager : MonoBehaviour
 {
@@ -18,6 +18,10 @@ public class UiManager : MonoBehaviour
     [SerializeField]
     private GameObject GameoverPanel;
     [SerializeField]
+    private Button restartButton;
+    [SerializeField]
+    private Button quitGame;
+      
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -30,6 +34,17 @@ public class UiManager : MonoBehaviour
             DontDestroyOnLoad(gameObject); 
         }
 
+    }
+    private void Start()
+    {
+        if(restartButton != null)
+        {
+            restartButton.onClick.AddListener(OnRestartButtonClicked);
+        }
+        if (GameoverPanel != null)
+        {
+            GameoverPanel.SetActive(false);
+        }
     }
 
     public void ShowInstruction(string text)
@@ -55,5 +70,14 @@ public class UiManager : MonoBehaviour
     public void ShowGameOverPanel()
     {
         GameoverPanel.SetActive(true);
+    }
+    public void OnRestartButtonClicked()
+    {
+        Debug.Log("Restart button clicked!"); 
+        if (GameoverPanel != null)
+        {
+            GameoverPanel.SetActive(false);
+        }
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

@@ -21,7 +21,7 @@ public class DetectionZone : MonoBehaviour
             Debug.Log("Player found");
            
             PlayerSpotted();
-            PlayerDied(playerController);
+            //PlayerDied(playerController);
             UiManager.Instance.ShowGameOverPanel();
         }       
     }

@@ -6,26 +6,49 @@ using System;
 
 public class GameOver : MonoBehaviour
 {
-    public Button restartButton;
+    public enum LevelType
+    {
+       lobby,
+       Level1,
+       Level2,
+       Info
+    }
+
+    [Header("Level to Load on Start")]
+    public LevelType levelToLoad = LevelType.lobby;
+    [Header("Info level ")]
+    public LevelType infoToLoad = LevelType.Info;
+
+    public Button startButton;
     public Button mainMenuButton;
     public Button QuitButton;
 
+
+
+    
     private void Start()
     {
-        restartButton.onClick.AddListener(GameRestart);
-        mainMenuButton.onClick.AddListener(MainManu);
+        startButton.onClick.AddListener(Gamestart);
+        mainMenuButton.onClick.AddListener(InfoMenu);
         QuitButton.onClick.AddListener(QuitGame);
     }
 
-    private void GameRestart()
+    private  void Gamestart()
+    {
+        string levelName = levelToLoad.ToString();
+
+        SceneManager.LoadScene(levelName);
+    }
+    private void InfoMenu()
+    {
+        string levelName = infoToLoad.ToString();
+        SceneManager.LoadScene(levelName);
+    }
+    private void RestartGame()
     {
         Scene currentSCene = SceneManager.GetActiveScene();
 
         SceneManager.LoadScene(currentSCene.buildIndex);
-    }
-    private void MainManu()
-    {
-        SceneManager.LoadScene(0);
     }
     private void QuitGame()
     {

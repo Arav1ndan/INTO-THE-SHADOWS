@@ -5,7 +5,20 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Shooter/Demo Scene/Demo.unity
     guid: acc72ef2591466e4d9054eaf10528c5f
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6ed144cbece01ed4ea5aee58f27c5923
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 44105ab1c202581439b0aadaabd6cef6
+  - enabled: 1
+    path: Assets/Scenes/Info.unity
+    guid: 1be67f113c2776546a84a82b21b06b7f
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
