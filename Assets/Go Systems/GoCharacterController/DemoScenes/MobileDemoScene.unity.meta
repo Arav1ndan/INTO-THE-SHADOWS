@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0c95a72cb0d161245b8679b8d48b5a4f
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252728
+  packageName: Go Systems Third Person Controller Template
+  packageVersion: 1.5.1
+  assetPath: Assets/Go Systems/GoCharacterController/DemoScenes/MobileDemoScene.unity
+  uploadId: 740830

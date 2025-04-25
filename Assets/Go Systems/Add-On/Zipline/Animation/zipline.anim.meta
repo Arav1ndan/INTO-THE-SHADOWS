@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0447d12567ac58144a8c5fe67a738fe0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252728
+  packageName: Go Systems Third Person Controller Template
+  packageVersion: 1.5.1
+  assetPath: Assets/Go Systems/Add-On/Zipline/Animation/zipline.anim
+  uploadId: 740830

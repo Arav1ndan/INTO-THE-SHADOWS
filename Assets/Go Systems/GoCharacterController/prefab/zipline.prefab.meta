@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a9ac52ebabdb47a42bee3d4c1f7c8749
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252728
+  packageName: Go Systems Third Person Controller Template
+  packageVersion: 1.5.1
+  assetPath: Assets/Go Systems/GoCharacterController/prefab/zipline.prefab
+  uploadId: 740830

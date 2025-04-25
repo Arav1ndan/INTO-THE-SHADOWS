@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a14399b8b4d422444a8ea54b19b68899
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252728
+  packageName: Go Systems Third Person Controller Template
+  packageVersion: 1.5.1
+  assetPath: Assets/Go Systems/GoCharacterController/prefab/FoodSounds Test.prefab
+  uploadId: 740830

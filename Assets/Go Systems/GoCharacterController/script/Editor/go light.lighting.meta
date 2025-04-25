@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1ad5b388706945244a7cf3cf1e2a15a6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 252728
+  packageName: Go Systems Third Person Controller Template
+  packageVersion: 1.5.1
+  assetPath: Assets/Go Systems/GoCharacterController/script/Editor/go light.lighting
+  uploadId: 740830
